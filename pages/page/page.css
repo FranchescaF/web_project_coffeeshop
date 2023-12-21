@@ -1,6 +1,4 @@
 .page {
-  min-width: 1100px;
-  max-width: 1600px;
   margin: 0 auto; /*página centrada*/
   font-family: "Inter", arial, sans-serif;
   font-size: 16px;
