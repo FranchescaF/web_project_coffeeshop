@@ -1,19 +1,11 @@
 @import url("../vendor/normalize.css");
-@import url("../pages/page/page.css");
-@import url("../pages/header/header.css");
-@import url("../pages/nav/nav.css");
-@import url("../pages/recipes/recipes.css");
-@import url("../pages/reservation/reservation.css");
-@import url("../pages/form/form.css");
-@import url("../pages/menu/menu.css");
-@import url("../pages/card/card.css");
-@import url("../pages/about/about.css");
-@import url("../pages/footer/footer.css");
-
-.page {
-  margin: 0 auto; /*página centrada*/
-  font-family: "Inter", arial, sans-serif;
-  font-size: 16px;
-  line-height: 20px; /*altura de linea*/
-  color: black;
-}
+@import url("../blocks/about.css");
+@import url("../blocks/card.css");
+@import url("../blocks/footer.css");
+@import url("../blocks/form.css");
+@import url("../blocks/header.css");
+@import url("../blocks/menu.css");
+@import url("../blocks/nav.css");
+@import url("../blocks/page.css");
+@import url("../blocks/recipes.css");
+@import url("../blocks/reservation.css");

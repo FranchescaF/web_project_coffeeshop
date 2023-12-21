@@ -1,0 +1,10 @@
+.page {
+  margin: auto; /*página centrada*/
+  font-family: "Inter", arial, sans-serif;
+  font-size: 16px;
+  line-height: 20px; /*altura de linea*/
+  color: black;
+  max-height: 1600px;
+  min-width: 1100px;
+  max-width: 1600px;
+}
