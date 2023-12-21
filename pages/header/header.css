@@ -1,5 +1,4 @@
 .header {
-  color: #ffffff;
   display: flex;
   flex-direction: column;
   height: 100vh;
@@ -10,52 +9,13 @@
   box-sizing: border-box;
   background-color: #ffffff;
   color: #000000;
-}
-
-/*.header__fondo {
-  display: flex;
-}*/
-
-.nav {
-  /* Agrega las propiedades flex aquí */
-  justify-content: space-between; /*para que uno este al extremo de otro*/
-  display: flex; /*alinea el 1er contenedor en general: el logo y links*/
-}
-
-.nav__logo {
-  height: 39px;
-  width: 105px;
-  position: relative;
-  margin: 30px 0px 0px 30px;
-}
-
-.nav__links {
-  /* Restablece los estilos predeterminados de list aquí */
-  display: flex; /*alinear el 2do contenedor que esta dentro del 1ro: solo links*/
-  margin-top: 30px 80px 0 124px;
-  list-style: none; /*eliminación de viñetas*/
-  column-gap: 20px; /*separación entre elementos*/
-  padding: 0; /*relleno entre la letra y su contorno*/
-}
-
-.nav__link {
-  color: #000000;
-  text-decoration: none;
-  font-family: "Inter";
-  font-style: normal;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 20px;
-}
-
-.nav__link:hover {
-  color: #1f69c9;
+  background-image: url(../../images/background_header.svg);
+  background-repeat: no-repeat;
+  align-content: space-between;
 }
 
 .header__title {
-  margin-top: 183px;
-  margin-bottom: 28px;
-  margin-left: 80px;
+  margin: 183px 0 0 80px;
   max-width: 729px;
   font-family: "Inter";
   font-style: normal;
@@ -64,6 +24,7 @@
   line-height: 72px;
   letter-spacing: -0.6px;
   color: black;
+  z-index: 1;
 }
 
 .header__title_span-accent {
@@ -76,8 +37,7 @@
 }
 
 .header__description {
-  top: 28px;
-  margin-left: 80px;
+  margin: 28px 0 0 80px;
   max-width: 683px;
   font-family: "Noto Serif";
   font-style: normal;
@@ -87,7 +47,7 @@
 }
 
 .header__image {
-  z-index: 1;
+  z-index: 0;
   position: absolute;
   width: 646px;
   height: 568px;
@@ -96,8 +56,8 @@
 }
 
 .header__footer {
-  bottom: 40px;
-  left: 80px;
+  margin-bottom: 40px;
+  margin-left: 80px;
   margin-top: auto;
   width: 100%;
   display: flex;
@@ -107,7 +67,8 @@
   font-family: "Inter";
   font-style: normal;
   font-weight: 500;
-  font-size: 20px;
+  font-size: 16px;
+  line-height: 20px;
   color: #838383;
 }
 
@@ -115,11 +76,11 @@
   list-style-type: none;
   padding: 0;
   font-weight: normal;
-  margin: 0 0 40px 80px;
+  align-items: flex-end;
 }
 
 .header__address {
-  margin-bottom: 40px;
-  margin-right: 80px;
-  margin-top: 0;
+  margin: 0 80px 40px 0;
+  z-index: 1;
+  align-items: flex-end;
 }
