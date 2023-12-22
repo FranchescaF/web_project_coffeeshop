@@ -59,11 +59,10 @@
 
 .header__footer {
   margin-bottom: 40px;
-  margin-left: 80px;
   margin-top: auto;
   width: 100%;
   display: flex;
-  align-items: center;
+  align-items: flex-end;
   justify-content: space-between;
   box-sizing: border-box;
   font-family: "Inter";
@@ -76,13 +75,12 @@
 
 .header__list {
   list-style-type: none;
-  padding: 0;
+  margin: 0 0 0 40px;
   font-weight: normal;
   align-items: flex-end;
 }
 
 .header__address {
-  margin: 0 80px 40px 0;
+  margin: 0 15px;
   z-index: 1;
-  align-items: flex-end;
 }
