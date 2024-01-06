@@ -240,9 +240,10 @@
   border-radius: 4px;
   font-family: Inter;
   font-style: normal;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 20px;
+  font-weight: normal;
+  font-size: 20px;
+  color: #838383;
+  line-height: 30px;
   width: 385px;
   margin-bottom: 32px;
   height: 60px;
@@ -265,28 +266,20 @@
 .form__button {
   height: 60px;
   margin-bottom: 32px;
-  line-height: 20px;
   background-color: #2f80ed;
   color: white;
   width: 385px;
   border-radius: 4px;
-}
-
-.form__button:hover {
-  from {
-    opacity: 1;
-  }
-  to {
-    opacity: 0.7;
-  }
-}
-
-.form__submit {
+  opacity: 1;
   font-family: Inter;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 20px;
+}
+
+.form__button:hover {
+  opacity: 0.7;
 }
 
 .form__label_checkbox {
