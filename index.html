@@ -141,7 +141,7 @@
                   type="number"
                   id="number"
                   name="number"
-                  placeholder=" 1-8"
+                  placeholder="   1-8"
                   required
                 />
               </label>
@@ -183,10 +183,176 @@
             </div>
           </form>
         </section>
-        <section class="menu" id="menu"></section>
-        <section class="about" id="contactos"></section>
+        <section class="menu" id="menu">
+          <h2 class="menu__title">Menú</h2>
+          <p class="menu__subtitle">
+            Elaboramos nuestro café con granos certificados de comercio justo,
+            tostados localmente, y usamos tazas biodegradables. Todos los tés de
+            nuestra colección a $2/taza.
+          </p>
+          <ul class="menu__cards">
+            <li class="cards">
+              <div class="cards__title">
+                De filtro
+                <li class="cards__list">
+                  <p class="cards__list-item">
+                    Regular (350 ml)
+                    <span class="cards__list-divider"></span>
+                    $1
+                  </p>
+                  <p class="cards__list-item">
+                    Grande (470 ml)
+                    <span class="cards__list-divider"></span>
+                    $1.25
+                  </p>
+                  <p class="cards__list-item">
+                    XL (590 ml)
+                    <span class="cards__list-divider"></span>
+                    $1.5
+                  </p>
+                  <p class="cards__list-item">
+                    Tamaño familiar (700 ml, descafeinado)
+                    <span class="cards__list-divider"></span>
+                    $1.75
+                  </p>
+                  <p class="cards__list-item">
+                    Café helado (470 ml)
+                    <span class="cards__list-divider"></span>
+                    $1.25
+                  </p>
+                </li>
+              </div>
+            </li>
+            <li class="cards">
+              <div class="cards__title">
+                Espresso
+                <li class="cards__list">
+                  <li class="cards__list-item">
+                    Macchiato
+                    <span class="cards__list-divider"></span>
+                    $2.25
+                  </li>
+                  <li class="cards__list-item">
+                    Cortado
+                    <span class="cards__list-divider"></span>
+                    $2.5
+                  </li>
+                  <li class="cards__list-item">
+                    Mocha
+                    <span class="cards__list-divider"></span>
+                    $3
+                  </li>
+                  <li class="cards__list-item">
+                    Amanecer en Bay Area (descafeinado)
+                    <span class="cards__list-divider"></span>
+                    $10
+                  </li>
+                </li>
+              </div>
+            </li>
+            <li class="cards">
+              <div class="cards__title">
+                Repostería
+                <li class="cards__list">
+                  <li class="cards__list-item">
+                    Croissant de almendra
+                    <span class="cards__list-divider"></span>
+                    $2
+                  </li>
+                  <li class="cards__list-item">
+                    Pan de banana
+                    <span class="cards__list-divider"></span>
+                    $1.75
+                  </li>
+                  <li class="cards__list-item">
+                    Tarta de limón
+                    <span class="cards__list-divider"></span>
+                    $3
+                  </li>
+                  <li class="cards__list-item">
+                    Pastel Blue velvet
+                    <span class="cards__list-divider"></span>
+                    $3.75
+                  </li>
+                  <li class="cards__list-item">
+                    Cookie web
+                    <span class="cards__list-divider"></span>
+                    $2
+                  </li>
+                  <li class="cards__list-item">
+                    Baguette fresco
+                    <span class="cards__list-divider"></span>
+                    $0.25
+                  </li>
+                </li>
+              </div>
+            </li>
+          </ul>
+        </section>
+        <section class="about">
+          <h2 class="about__title">Sobre la cafetería</h2>
+          <div class="about__content">
+            <p class="about__paragraph">
+              Nuestra cafetería se ubica en la Biblioteca Triple Peaks. Cuenta con 6 mesas y WiFi gratuito.
+            </p>
+            <p class="about__paragraph">
+              Nuestra principal misión es mantener a nuestros comensales cómodos
+              y con energía.
+            </p>
+            <p class="about__paragraph">
+              Además, buscamos reducir nuestro impacto ambiental, así que no
+              vendemos tazas de un solo uso. ¡Pero puedes comprar una de
+              nuestras tazas reutilizables!
+            </p>
+          </div>
+          <div class="about__circle"></div>
+        </section>
       </main>
-      <footer class="footer"></footer>
+      <footer class="footer" id="contactos">
+        <div class="footer__columns">
+          <div class="footer__column">
+            <img
+              class="footer__logo"
+              src="./images/logo_coffeeshop_light.svg"
+              alt="Logo Expresso"
+            />
+            <p class="footer__copyright">&copy;2023 Franchesca Zelaya</p>
+          </div>
+          <div class="footer__column footer__column_content_social">
+            <h2 class="footer__column-heading">Redes Sociales</h2>
+            <ul class="footer__list">
+              <li class="footer__list-item">
+                <a
+                  class="footer__column-link"
+                  href="#facebook_icon"
+                  id="link-facebook_icon"
+                >
+                  <img
+                    class="footer__social-icon"
+                    src="./images/facebook_white.svg"
+                    alt="facebook_icon"
+                  />
+                  Facebook
+                </a>
+              </li>
+              <li class="footer__list-item">
+                <a
+                  class="footer__column-link"
+                  href="#instagram_icon"
+                  id="link-instagram_icon"
+                >
+                  <img
+                    class="footer__social-icon"
+                    src="./images/instagram_white.svg"
+                    alt="instagram_icon"
+                  />
+                  Instagram
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </footer>
     </div>
   </body>
 </html>

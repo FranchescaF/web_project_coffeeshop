@@ -2,39 +2,19 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  background-image: url(../images/background_reservation.svg);
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+  background-color: #d9e7ff;
 }
 
 .reservation__title {
   margin-top: 100px;
   margin-bottom: 80px;
-}
-
-.form__fieldset {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  border: none;
-}
-
-.form__input {
-  border-radius: 4px;
-}
-
-.form__label {
-  display: flex;
-  flex-direction: column;
-  margin-bottom: 8px;
-}
-
-.form__button {
-  height: 60px;
-  margin-top: 32px;
-  margin-bottom: 32px;
-  line-height: 20px;
-  background-color: #2f80ed;
-  color: white;
-  width: 385px;
-}
-
-.form__checkbox {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 44px;
+  line-height: 52px;
 }

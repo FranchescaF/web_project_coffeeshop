@@ -1,0 +1,13 @@
+.cards {
+  display: flex;
+}
+
+.cards__title {
+}
+
+.cards__list-item {
+}
+
+.cards__list-divider {
+  justify-content: space-between;
+}

@@ -1,0 +1,32 @@
+.menu {
+  background-image: url(../images/background_menu.svg);
+  height: 100vh;
+  width: 100%;
+  padding: 40px 0 0 0;
+  background-color: #ffff;
+  color: black;
+  display: flex;
+}
+.menu__title {
+  padding: 100px 0 0 80px;
+  margin: 0;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 44px;
+  line-height: 52px;
+}
+
+.menu__subtitle {
+  padding: 24px 0 80px 80px;
+  margin: 0;
+  max-width: 438px;
+  font-family: "Noto Serif";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.menu__cards {
+}
