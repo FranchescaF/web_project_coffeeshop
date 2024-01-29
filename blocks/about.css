@@ -1,12 +1,11 @@
 .about {
-  padding: 100px 80px;
   background-color: #0a2850;
   color: #fff;
   overflow: hidden;
   position: relative;
-  box-sizing: border-box; /**/
+  box-sizing: border-box;
   display: flex;
-  gap: 120px;
+  gap: 180px;
 }
 
 .about__title {
@@ -50,5 +49,16 @@
   left: -129px;
 }
 
-@keyframes about__circle_animation_blurred {
+.about__circle_animation_blurred {
+  animation: pulsate 1.3s ease-in-out infinite alternate;
+}
+
+@keyframes pulsate {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 0.6;
+    transform: scale(1, 1.5);
+  }
 }
