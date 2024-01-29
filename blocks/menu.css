@@ -1,15 +1,16 @@
 .menu {
   background-image: url(../images/background_menu.svg);
-  height: 100vh;
-  width: 100%;
-  padding: 40px 0 0 0;
   background-color: #ffff;
   color: black;
   display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-size: cover;
 }
+
 .menu__title {
-  padding: 100px 0 0 80px;
-  margin: 0;
+  margin-top: 100px;
+  max-width: 780px;
   font-family: "Inter";
   font-style: normal;
   font-weight: 500;
@@ -18,15 +19,11 @@
 }
 
 .menu__subtitle {
-  padding: 24px 0 80px 80px;
-  margin: 0;
-  max-width: 438px;
+  margin-top: 24px;
+  max-width: 780px;
   font-family: "Noto Serif";
   font-style: normal;
   font-weight: normal;
   font-size: 20px;
   line-height: 30px;
-}
-
-.menu__cards {
 }

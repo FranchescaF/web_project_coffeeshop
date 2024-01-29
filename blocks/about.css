@@ -11,27 +11,44 @@
 
 .about__title {
   margin: 0;
-  font-size: 20px;
-  line-height: 30px;
-  font-weight: 500;
   z-index: 1;
-  max-width: 154px;
+  max-width: 251px;
+  padding: 100px 0 0 80px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 44px;
+  line-height: 52px;
 }
 
 .about__content {
-  font-size: 20px;
-  line-height: 30px;
-  font-weight: 400;
   max-width: 660px;
+  margin: 0;
+  padding: 119px 80px 173px 0;
   z-index: 1; /*para que se vea por encima del circulo*/
   display: flex;
   flex-direction: column;
-  gap: 32px;
+  gap: 20px;
+  font-family: "Noto Serif";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
 }
 
-.about__paragrafs {
+.about__paragraph {
   margin: 0;
 }
 
 .about__circle {
+  background-color: #2f80ed;
+  width: 426px;
+  height: 426px;
+  border-radius: 50%;
+  position: absolute;
+  top: -152px;
+  left: -129px;
+}
+
+@keyframes about__circle_animation_blurred {
 }

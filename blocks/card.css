@@ -1,13 +1,44 @@
-.cards {
+.menu__cards {
   display: flex;
+  flex-wrap: wrap; /*los elementos se alinean en una nueva fila si no hay espacio*/
+  justify-content: center;
+  row-gap: 100px; /*espacio entre las cartas del medio*/
+  column-gap: 100px; /*espacio a la derecha de la tarjeta*/
+  margin-bottom: 100px;
 }
 
-.cards__title {
+.card {
+  width: 540px;
+  display: flex;
+  flex-direction: column;
 }
 
-.cards__list-item {
+.card__title {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 30px;
+  margin: 0 auto 32px 0;
 }
 
-.cards__list-divider {
-  justify-content: space-between;
+.card__list {
+  font-family: "Noto Serif";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.card__list-item {
+  display: flex;
+  flex-direction: column; /*eje y*/
+  justify-content: space-between; /*espacio entre los hijos de un flex*/
+  margin: 0 0 16px 0;
+}
+
+.card__list-divider {
 }
